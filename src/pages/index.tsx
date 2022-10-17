@@ -25,13 +25,22 @@ const Home: NextPage = () => {
 
 			<main className="container-fluid min-w-screen h-screen bg-[url('/bg-mobile.jpg')] md:bg-[url('/bg.jpg')] bg-cover bg-center bg-no-repeat relative">
 				<div className='flex flex-col justify-center  items-center h-full'>
-					<div>
+					<div className='hidden md:block'>
 						<Image
 							src='/logo.png'
 							alt='rada sea ventures logo'
 							width={391.37}
 							height={159.53}
-							layout='intrinsic'
+							layout='fixed'
+						/>
+					</div>
+					<div className='md:hidden'>
+						<Image
+							src='/logo.png'
+							alt='rada sea ventures logo'
+							width={293.24}
+							height={119.53}
+							layout='fixed'
 						/>
 					</div>
 					<div className='absolute bottom-20 md:bottom-10 w-full text-center text-white'>

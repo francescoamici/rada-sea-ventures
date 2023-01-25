@@ -12,7 +12,7 @@ const Home: NextPage = () => {
 	return (
 		<>
 			<Head>
-				<title>Rada Sea Ventures</title>
+				<title>Rada Sea Ventures.</title>
 				<meta name='description' content='Rada sea ventures' />
 				<link rel='icon' href='/favicon.ico' />
 				<link rel='preconnect' href='https://fonts.googleapis.com' />
